@@ -1,0 +1,5 @@
+### IntelliJ ###
+# User-specific stuff
+.idea/*
+
+out/
