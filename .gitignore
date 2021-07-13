@@ -1,6 +1,6 @@
 ### IntelliJ ###
 # User-specific stuff
 .idea/*
-.iml
+*.iml
 
 out/

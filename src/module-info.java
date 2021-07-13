@@ -5,4 +5,6 @@ module JavaFXEmailClient {
     requires javafx.web;
 
     opens com.email_client;
+    opens com.email_client.view;
+    opens com.email_client.controller;
 }
