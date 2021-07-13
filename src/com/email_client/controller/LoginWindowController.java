@@ -5,6 +5,7 @@ import com.email_client.view.ViewFactory;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 public class LoginWindowController extends BaseController {
 
@@ -23,7 +24,11 @@ public class LoginWindowController extends BaseController {
 
     @FXML
     void loginButtonAction() {
-        System.out.println("Login Button Clicked!");
+        // Todo -> Add login functionality
+        viewFactory.showMainWindow();
+        // Close login stage
+        Stage stage = (Stage) this.errorLabel.getScene().getWindow();
+        viewFactory.closeStage(stage);
     }
 
 }
